@@ -1,0 +1,8 @@
+#!/bin/bash
+#Script to setup email for git
+
+echo Enter in the email associated with your github account
+
+read EnteredEmail
+
+git config user.email "$EnteredEmail"

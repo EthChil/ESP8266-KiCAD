@@ -1,0 +1,14 @@
+#!/bin/bash
+#script to pull from github
+
+echo Force Pull? [y/n]
+read EnteredVar
+
+if [ "$EnteredVar" = "y" ]
+then
+	git fetch --all
+	git reset --hard origin/master
+	git pull origin master
+else
+	git pull origin master
+fi
