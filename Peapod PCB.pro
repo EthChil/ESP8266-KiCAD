@@ -1,4 +1,4 @@
-update=Tue 15 Aug 2017 12:25:30 PM EDT
+update=Tue 15 Aug 2017 12:56:16 PM EDT
 version=1
 last_client=kicad
 [pcbnew]
@@ -59,3 +59,4 @@ LibName27=atmel
 LibName28=contrib
 LibName29=valves
 LibName30=lib/esp8266
+LibName31=lib/button-dpdt
