@@ -1,18 +1,18 @@
 EESchema-LIBRARY Version 2.3
 #encoding utf-8
 #
-# Pushbutton
+# Pushbutton-RESCUE-Peapod_PCB
 #
-DEF Pushbutton BTN 0 40 Y Y 1 F N
+DEF Pushbutton-RESCUE-Peapod_PCB BTN 0 40 Y Y 1 F N
 F0 "BTN" -90 90 40 H V C CNN
-F1 "Pushbutton" 10 -60 40 H V C CNN
+F1 "Pushbutton-RESCUE-Peapod_PCB" 10 -60 40 H V C CNN
 F2 "" -300 -400 60 H I C CNN
 F3 "" -300 -400 60 H I C CNN
 DRAW
 P 2 0 1 0 -40 20 40 20 N
 P 2 0 1 0 0 20 0 50 N
-X ~ 2 100 0 75 L 50 50 1 1 I
 X ~ ~ -100 0 75 R 50 50 1 1 I
+X ~ ~ 100 0 75 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
