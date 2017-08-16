@@ -1,7 +1,7 @@
 (export (version D)
   (design
-    (source "/home/ethchil/Documents/ESP8266-KiCAD/Peapod PCB.sch")
-    (date "Wed 16 Aug 2017 03:42:07 PM EDT")
+    (source "/home/yaosa/Documents/ESP8266-KiCAD/Peapod PCB.sch")
+    (date "Wed 16 Aug 2017 03:42:54 PM EDT")
     (tool "Eeschema 4.0.6")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -202,14 +202,14 @@
         (pin (num 1) (name ~) (type passive))
         (pin (num 2) (name ~) (type passive)))))
   (libraries
-    (library (logical esp8266)
-      (uri /home/ethchil/Documents/ESP8266-KiCAD/lib/esp8266.lib))
-    (library (logical pushbutton)
-      (uri /home/ethchil/Documents/ESP8266-KiCAD/lib/pushbutton.lib))
     (library (logical device)
       (uri /usr/share/kicad/library/device.lib))
     (library (logical conn)
-      (uri /usr/share/kicad/library/conn.lib)))
+      (uri /usr/share/kicad/library/conn.lib))
+    (library (logical esp8266)
+      (uri /home/yaosa/Documents/ESP8266-KiCAD/lib/esp8266.lib))
+    (library (logical pushbutton)
+      (uri /home/yaosa/Documents/ESP8266-KiCAD/lib/pushbutton.lib)))
   (nets
     (net (code 1) (name "Net-(J6-Pad1)")
       (node (ref U1) (pin 13))
