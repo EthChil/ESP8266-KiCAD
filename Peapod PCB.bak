@@ -80,39 +80,6 @@ F 3 "" H 6800 4100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Pushbutton-RESCUE-Peapod_PCB BTN1
-U 1 1 5993320C
-P 5150 3775
-F 0 "BTN1" H 5060 3865 40  0000 C CNN
-F 1 "Pushbutton" H 5160 3715 40  0000 C CNN
-F 2 "mod:Pushbutton" H 4850 3375 60  0001 C CNN
-F 3 "" H 4850 3375 60  0001 C CNN
-	1    5150 3775
-	1    0    0    -1  
-$EndComp
-$Comp
-L Pushbutton-RESCUE-Peapod_PCB BTN3
-U 1 1 599332EE
-P 4775 3625
-F 0 "BTN3" H 4685 3715 40  0000 C CNN
-F 1 "Pushbutton" H 4785 3565 40  0000 C CNN
-F 2 "mod:Pushbutton" H 4475 3225 60  0001 C CNN
-F 3 "" H 4475 3225 60  0001 C CNN
-	1    4775 3625
-	1    0    0    -1  
-$EndComp
-$Comp
-L Pushbutton-RESCUE-Peapod_PCB BTN4
-U 1 1 5993333F
-P 5150 3475
-F 0 "BTN4" H 5060 3565 40  0000 C CNN
-F 1 "Pushbutton" H 5160 3415 40  0000 C CNN
-F 2 "mod:Pushbutton" H 4850 3075 60  0001 C CNN
-F 3 "" H 4850 3075 60  0001 C CNN
-	1    5150 3475
-	1    0    0    -1  
-$EndComp
-$Comp
 L GND #PWR03
 U 1 1 5993357D
 P 4500 3825
@@ -444,4 +411,37 @@ Wire Wire Line
 	6625 2500 7300 2500
 NoConn ~ 7300 2700
 NoConn ~ 7300 2300
+$Comp
+L Pushbutton BTN2
+U 1 1 5994A123
+P 5150 3475
+F 0 "BTN2" H 5060 3565 40  0000 C CNN
+F 1 "Pushbutton" H 5160 3415 40  0000 C CNN
+F 2 "mod:Pushbutton" H 4850 3075 60  0001 C CNN
+F 3 "" H 4850 3075 60  0001 C CNN
+	1    5150 3475
+	1    0    0    -1  
+$EndComp
+$Comp
+L Pushbutton BTN1
+U 1 1 5994A192
+P 4775 3625
+F 0 "BTN1" H 4685 3715 40  0000 C CNN
+F 1 "Pushbutton" H 4785 3565 40  0000 C CNN
+F 2 "mod:Pushbutton" H 4475 3225 60  0001 C CNN
+F 3 "" H 4475 3225 60  0001 C CNN
+	1    4775 3625
+	1    0    0    -1  
+$EndComp
+$Comp
+L Pushbutton BTN3
+U 1 1 5994A1EB
+P 5150 3775
+F 0 "BTN3" H 5060 3865 40  0000 C CNN
+F 1 "Pushbutton" H 5160 3715 40  0000 C CNN
+F 2 "mod:Pushbutton" H 4850 3375 60  0001 C CNN
+F 3 "" H 4850 3375 60  0001 C CNN
+	1    5150 3775
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
