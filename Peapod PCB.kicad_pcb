@@ -267,7 +267,7 @@
   )
 
   (module mod:Pushbutton (layer F.Cu) (tedit 59947F40) (tstamp 5994A11D)
-    (at 182.88 48.26 180)
+    (at 179.07 48.26 180)
     (path /5994A192)
     (fp_text reference BTN1 (at 0 0.5 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -286,7 +286,7 @@
   )
 
   (module mod:Pushbutton (layer F.Cu) (tedit 59947F40) (tstamp 5994A125)
-    (at 175.26 48.26 180)
+    (at 168.91 48.26 180)
     (path /5994A123)
     (fp_text reference BTN2 (at 0 0.5 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -305,7 +305,7 @@
   )
 
   (module mod:Pushbutton (layer F.Cu) (tedit 59947F40) (tstamp 5994A12D)
-    (at 190.5 48.26 180)
+    (at 189.23 48.26 180)
     (path /5994A1EB)
     (fp_text reference BTN3 (at 0 0.5 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
