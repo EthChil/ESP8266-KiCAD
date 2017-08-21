@@ -1,4 +1,4 @@
-(module "Battery Mount" (layer F.Cu) (tedit 599AFABD)
+(module BatteryMount (layer F.Cu) (tedit 599AFABD)
   (fp_text reference REF** (at 0 6.6) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
